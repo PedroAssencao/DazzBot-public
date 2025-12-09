@@ -1,0 +1,93 @@
+.Title{
+    font-weight: bold;
+    color: #263a6d;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-group{
+    width: 25rem;
+}
+
+.SubTitle{
+    font-weight: bold;
+    color: #263a6d;
+    font-size: 18px;
+}
+
+.SubTitlePerfil{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.SubTitleName{
+    font-weight: bold;
+    color: grey;
+    font-size: 18px;
+}
+
+.cardprincipal{
+    padding: 1.3rem;
+    padding-bottom: 0rem;
+    height: 20%;
+    border: 1px solid rgb(212, 202, 202);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec{
+    padding-inline: 1rem;
+    padding-top: 0rem;
+}
+
+.img{
+    width: 50rem;
+    height: 50rem;
+}
+
+.PerfilImagem{
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padding{
+    padding: 1rem;
+}
+
+.colcentro{
+    display: flex;
+    align-items: center;
+}
+
+.footerPerfil{
+    display: flex;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.CardPerfilSubTitle{
+    padding-bottom: 0.5rem;
+}
+
+.NomePerfil{
+    height: 100%;
+    width: 70%;
+    padding-left: 0.5rem;
+}
+
+.espaco{
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+hr{
+    border: none;
+    border-bottom: 2px solid black;
+}

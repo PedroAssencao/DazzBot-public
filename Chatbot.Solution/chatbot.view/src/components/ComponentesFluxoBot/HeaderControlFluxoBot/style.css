@@ -1,0 +1,6 @@
+.headerControlFluxoBot {
+    background-color: #a8a79f;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

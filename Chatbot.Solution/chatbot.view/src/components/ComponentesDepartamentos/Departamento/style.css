@@ -1,0 +1,49 @@
+.DepartamentoCompo{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #263a6d;
+    border-radius: 3%;
+    width: 25rem;
+    height: 8.5rem;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.5rem;
+    background-color: rgb(228, 234, 248);
+}
+
+.TipoDep{
+    justify-content: start;
+    color: #263a6d;
+    font-weight: bold;
+ }
+ 
+ .NumberDep{
+     font-weight: bold;
+     color: #263a6d;
+     font-size: 22px;
+     margin-left: 2.5rem;
+ }
+ 
+ .dep{
+    width: 50%;
+ }
+
+ .depicon{
+    display: flex;
+    justify-content: end;
+    margin-top: 0.4rem;
+ }
+
+ .DepartamentoCompo:hover{
+  transform: scale(1.03);
+  animation: ease-in-out 2s;
+ }
+
+ .DepartamentoIcon{
+    margin-bottom: 0.6rem;
+    background-color: rgb(216, 228, 255);
+    border-radius: 50%;
+ }

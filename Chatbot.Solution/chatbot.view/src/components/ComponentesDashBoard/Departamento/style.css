@@ -1,0 +1,48 @@
+.Departamento {
+    width: 46rem;
+    height: 33rem;
+    box-shadow: 1px 1px 2px 2px grey;
+    padding: 0.5rem;
+}
+
+@media (max-width: 992px) {
+  
+    .Departamento {
+        width: 10rem;
+        height: 30rem;
+    }
+}
+
+
+.DepartamentoHeader {
+    display: flex;
+    justify-content: right;
+    padding-right: 0.5rem;
+}
+
+.DepartamentoInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.DepartamentoTitle {
+    color: #263a6d;
+}
+
+.DepartamentoGrafico {
+    display: flex;
+    justify-content: center;
+    width: 25rem;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.DepartamentoBtn {
+    border: #263a6d solid 1px;
+    color: #263a6d;
+    width: 15rem;
+}

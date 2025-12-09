@@ -1,0 +1,56 @@
+.Title{
+    color: #263a6d;
+    font-weight: bold;
+}
+
+.card{
+    padding: 0.8rem;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.cardIcon{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0px;
+}
+
+
+.Name{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.Header{
+    display: flex;
+}
+
+.BlueButton{
+ background-color: #263a6d;
+ --bs-btn-hover-color:  #263a6d solid 1px;
+ display: flex;
+ align-items: center;
+ border-color: #263a6d;
+}
+
+.depcentralizar{
+    display: flex;
+}
+
+.teste{
+    margin-left: 0.5rem;
+    gap: 2%;
+}
+
+.DepartamentoCampos{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,224 @@
+.containerInicio {
+    height: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.headerControlFluxoBot{
+    background-color: #263a6d !important;
+}
+
+
+.header {
+    background-color: #263a6d;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnColorForFluxoBot {
+    background-color: #2e4979;
+    color: #fff;
+    font-weight: bold;
+}
+
+.textColorForFluxoBot {
+    color: #a8a49a;
+}
+
+.menuContainerForFluxoBot {
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.errorParaCampos{
+    background-color: rgba(255, 0, 0, 0.466) !important;
+}
+
+.btnHoverClass:hover {
+    background-color: #2e4979 !important;
+    color: #fff !important;
+    border-color: none !important;
+}
+
+.TituloForFluxoBot {
+    font-weight: bold;
+    color: #304b76;
+}
+
+.ContainerInfos {
+    min-height: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 3rem;
+}
+
+.menu {
+    max-width: 25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerTipo {
+    width: 30rem;
+}
+
+.buttonAdicionarFromHome {
+    color: #fff;
+    margin-bottom: 1rem;
+    background-color: #5870af;
+    width: 19rem;
+    font-size: 15pt;
+}
+
+.buttonAdicionarFromHome:hover {
+    color: #fff;
+    margin-bottom: 1rem;
+    background-color: #5870af;
+    width: 19rem;
+}
+
+.buttonSalvarFromHome {
+    color: #fff;
+    margin-bottom: 1rem;
+    background-color: #5870af;
+    width: 10rem;
+    font-weight: bold;
+}
+
+.buttonSalvarFromHome:hover {
+    color: #fff;
+    margin-bottom: 1rem;
+    background-color: #5870af;
+    width: 10rem;
+    font-weight: bold;
+}
+
+.dropdownMargin {
+    margin-bottom: -5rem !important;
+    margin-left: 1rem !important;
+}
+
+.marginClasses-0 {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-1 {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-2 {
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-3 {
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-4 {
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-5 {
+    margin-left: 25rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-6 {
+    margin-left: 30rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-7 {
+    margin-left: 35rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-8 {
+    margin-left: 40rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-9 {
+    margin-left: 45rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-10 {
+    margin-left: 50rem;
+    margin-bottom: 1rem;
+    max-width: 25rem;
+}
+
+.marginClasses-11 {
+    margin-left: 55rem;
+    max-width: 25rem;
+}
+
+.marginClasses-12 {
+    margin-left: 60rem;
+    max-width: 25rem;
+}
+
+.ContainerPaiFluxoCards {
+    position: relative;
+    max-height: 40rem;
+    overflow-x: auto;
+}
+
+.jtk-connector{
+    max-width: 25rem !important;
+}
+
+#LinhaMenuPrincipal{
+    /* max-width: 97%; */
+    margin-left: 0!important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 9px;
+    /* Largura da scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Cor do fundo da barra */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #263a6d;
+    /* Cor da barra */
+    border-radius: 10px;
+    /* Borda arredondada */
+    border: 2px solid #f1f1f1;
+    /* Espaçamento em volta da barra */
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 1213px) {
+    .TamanhoSubMenuFluxobot{
+        width: 15%!important;
+    }
+  }
+  

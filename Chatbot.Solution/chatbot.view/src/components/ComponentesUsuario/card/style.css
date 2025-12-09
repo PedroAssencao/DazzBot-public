@@ -1,0 +1,37 @@
+
+.statusAtivo {
+    width: 1rem;
+    height: 1rem;
+    background-color: aquamarine;
+}
+
+.statusOffline {
+    width: 1rem;
+    height: 1rem;
+    background-color: red;
+}
+
+.card {
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 0.8rem;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 16rem;
+}
+
+.cardIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.barra-superior {
+    background-color: white;
+    height: 8vh;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.barra-superior h1 {
+    margin: 0;
+    color: #182c5f;
+}
+
+/* Estilo para o conteúdo abaixo da barra superior */
+.conteudo {
+    background-color: #ffffff;
+    /* background-color: #EBEFF9;   */
+    height: 100vh;
+    padding: 20px;
+}
+
+.conteudo h2 {
+    margin: 0;
+    color: #182c5f;
+}
+
+.linha-horizontal {
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.table-group svg{
+   color: #182c5f;
+}
+.table{
+    border-radius: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+.parte-superior{
+    display: flex;
+    justify-content: space-between;
+}
+.parte-superior button{
+    box-shadow: 0px 10px 56px -11px #1875FF;
+   background-color: #182c5f;
+   border-radius: 20px;
+   border:none;
+}
+.parte-superior svg{
+    margin-right: 10px;
+}
+.modalBloqueio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+}
+
+/* .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50vh;
+} */
+.input-group {
+   width: 40vh;
+}
+.form-selectBloqueio{
+    width: 40vh;
+}
+.parte-superior{
+    font-family: 'Poppins', sans-serif;
+}

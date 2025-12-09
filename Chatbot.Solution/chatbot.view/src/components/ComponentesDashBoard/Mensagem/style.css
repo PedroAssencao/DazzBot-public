@@ -1,0 +1,58 @@
+.Mensagem {
+    width: 400px;
+    padding: 0px;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+.MensagemHeader {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+
+.Grafico {
+    width: 102.5% !important;
+    position: relative;
+    right: 3rem;
+    bottom: -0.55rem;
+}
+
+.MensagemTitle {
+    color: #263a6d;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Total {
+    color: grey;
+    opacity: 0.8;
+}
+
+.Info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MensagemIcon {
+    display: flex;
+}
+
+.Icon {
+    margin-right: 0.3rem;
+}
+
+.MensagemInfo {
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: end;
+}
+
+.MensagemFinal {
+    display: flex;
+    padding: 1rem;
+    padding-top: 0px;
+}

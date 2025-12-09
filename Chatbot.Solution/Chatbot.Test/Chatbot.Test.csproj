@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+	  <PreserveCompilationContext>true</PreserveCompilationContext>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.10" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chatbot.API\Chatbot.API.csproj" />
+    <ProjectReference Include="..\Chatbot.Domain\Chatbot.Domain.csproj" />
+    <ProjectReference Include="..\Chatbot.Infrastructure.Meta\Chatbot.Infrastructure.Meta.csproj" />
+    <ProjectReference Include="..\Chatbot.Infrastructure\Chatbot.Infrastructure.csproj" />
+    <ProjectReference Include="..\Chatbot.Infrastrucutre.OpenAI\Chatbot.Infrastrucutre.OpenAI.csproj" />
+    <ProjectReference Include="..\Chatbot.Services\Chatbot.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>

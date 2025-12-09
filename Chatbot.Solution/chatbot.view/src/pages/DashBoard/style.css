@@ -1,0 +1,124 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.Title {
+    color: #263a6d;
+}
+
+.Content {
+    padding: 1rem;
+}
+
+.widthForSecondCards {
+    width: 32% !important;
+    margin-bottom: 2rem;
+}
+
+.DepartamentoHeader {
+    max-height: 1.6rem !important;
+}
+
+.widthForFirstCards {
+    width: 49% !important;
+    margin-bottom: 2rem;
+}
+
+.Page {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.AtivoGrafico {
+    width: 100% !important;
+    max-height: 28rem !important;
+}
+
+#Ativo {
+    width: 100% !important;
+    max-height: 28rem !important;
+}
+
+
+.Date {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.59rem;
+    font-size: 15pt;
+}
+
+.secondCardsClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    min-height: 10rem;
+    width: 32.3% !important;
+}
+
+.FirstCardsClass {
+    display: flex;
+    flex-direction: column !important;
+    margin-bottom: 1rem;
+
+    width: 49% !important;
+}
+
+@media (max-width: 992px) {
+    .secondCardsClass {
+        width: 95% !important;
+    }
+
+    .FirstCardsClass {
+        width: 95% !important;
+    }
+
+}
+
+.flexColumnForDash {
+    flex-direction: column !important;
+}
+
+.MensagemTitle {
+    font-size: 1rem !important;
+}
+
+.bi-calendar-date {
+    margin-left: 0.3rem;
+}
+
+.GraficosPrimarios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.GraficosSecundarios {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.DashBoardNovidades {
+    color: #263a6d;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.Total {
+    font-size: 0.90rem !important;
+}
+
+.col {
+    padding: 0.5rem;
+}
+
+.linhaGraph4{
+    padding: 0px;
+}

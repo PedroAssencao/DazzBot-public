@@ -1,0 +1,6 @@
+.ConteudoChat {
+    overflow: auto;
+    padding: 2rem;
+    max-height: 77vh;
+    height: 77vh;
+}

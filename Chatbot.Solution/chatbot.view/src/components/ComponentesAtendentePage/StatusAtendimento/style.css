@@ -1,0 +1,25 @@
+@media (min-width: 992px) {
+    .MarginMedia {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .menuButtonStatus {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+/* .conversaStatus:hover {
+    background-color: white;
+    border-radius: 0.5rem;,
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+} */
+
+.activeOption {
+    background-color: #fff;
+    cursor: pointer;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}

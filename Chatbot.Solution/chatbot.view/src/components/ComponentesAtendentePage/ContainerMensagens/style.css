@@ -1,0 +1,9 @@
+.containerMensagens {
+    max-width: 28rem;
+}
+
+@media (max-width: 992px) {
+    .containerMensagens {
+        max-width: 100%;
+    }
+}

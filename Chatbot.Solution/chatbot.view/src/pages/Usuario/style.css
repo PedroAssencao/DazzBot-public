@@ -1,0 +1,38 @@
+.Title{
+    color: #263a6d;
+    font-weight: bold;
+}
+
+.Widthteste{
+    min-width: 20rem !important;
+    max-width: 24rem !important;
+}
+
+p{
+    margin: 0px;
+}
+
+.btnHoverUsuarios:hover {
+    background-color: #2e4979 !important;
+    color: #fff !important;
+    border-color: none !important;
+}
+
+.Name{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.Type{
+   font-size: 16px;
+   margin-bottom: 0.5rem;
+}
+
+.Number{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Header{
+    display: flex;
+}

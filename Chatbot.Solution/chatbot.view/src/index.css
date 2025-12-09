@@ -1,0 +1,7 @@
+.btn-primary {
+    background-color: #263a6d;
+    --bs-btn-hover-color: #263a6d solid 1px;
+    display: flex;
+    align-items: center;
+    border-color: #263a6d;
+}
