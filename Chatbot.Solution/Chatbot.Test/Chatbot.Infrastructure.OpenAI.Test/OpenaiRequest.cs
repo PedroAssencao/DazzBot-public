@@ -7,7 +7,7 @@ namespace Chatbot.Test.Chatbot.Infrastructure.OpenAI.Test
     public class OpenaiRequest
     {
         private readonly IOpenaiRequest _services;
-        private readonly string Token = "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";
+        private readonly string Token = "";
 
         public OpenaiRequest()
         {
