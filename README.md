@@ -1,82 +1,202 @@
-# DazzleBot 🤖 - Plataforma de Chatbot para Atendimento
+# DazzleBot 🤖 — Plataforma de Chatbot para Atendimento (TCC)
 
-O **DazzleBot** é uma plataforma completa de **chatbot para atendimento ao cliente**, projetada para otimizar a comunicação e o suporte. O projeto é construído em uma arquitetura moderna, utilizando **.NET 8.0 (C#)** para o backend, integrando com a **API do WhatsApp (Meta)** e **Inteligência Artificial (OpenAI)** para automação, e uma interface de usuário dinâmica em **React/Vite** para a gestão e o atendimento humano em tempo real via **SignalR**.
-
----
-
-## 🛠️ Instalação
-
-Siga os passos abaixo para configurar e rodar o projeto localmente.
-
-### Pré-requisitos
-
-Certifique-se de ter instalado:
-
-* **SDK do .NET 8.0**
-* **SQL Server** (ou configure para usar outro banco de dados compatível com Entity Framework Core).
-* **Node.js e npm** (para o frontend React).
-
-### 1. Configuração do Banco de Dados
-
-1.  Crie um novo banco de dados no seu SQL Server (por exemplo, `chatbot`).
-2.  Execute os scripts SQL disponíveis na pasta `DbAtualizado` (recomenda-se usar o mais recente, como `DbAtualizado/BancoDeDadosAtualizado20_11_24.sql`) para criar o esquema e popular as tabelas iniciais.
-
-### 2. Configuração do Backend (`Chatbot.API`)
-
-1.  Navegue até a pasta `Chatbot.Solution/Chatbot.API`.
-2.  Crie um arquivo `appsettings.json` (baseado em `appsettings.example.json`) e configure:
-    * A **ConnectionString** para o seu banco de dados (chave `Chinook`).
-    * As chaves de API para Meta (WhatsApp) e OpenAI, se aplicável.
-3.  Execute a API:
-    ```bash
-    dotnet run
-    ```
-    A API será iniciada (por padrão em `http://localhost:5058` ou `https://localhost:7261`).
-
-### 3. Configuração do Frontend (`chatbot.view`)
-
-1.  Navegue até a pasta `Chatbot.Solution/chatbot.view`.
-2.  Instale as dependências:
-    ```bash
-    npm install
-    ```
-3.  Verifique o arquivo `src/appsettings.jsx` e confirme se a `urlBase` aponta para o endereço correto da sua API (ex: `http://localhost:5058/api`).
-4.  Execute o frontend:
-    ```bash
-    npm run dev
-    ```
+O **DazzleBot** é uma plataforma completa de atendimento via **WhatsApp (Meta)**, **unificando atendentes em um único número**, permitindo automação com **IA**, **envio de mensagens em massa**, **criação de fluxos de bot**, **dashboards** e controle total das conversas entre **bot** e **humano** — tudo rodando sobre **SQL Server**, **ASP.NET com C#**, **React com JavaScript** e **Entity Framework Core**. Desenvolvido como projeto de TCC, integra automação e atendimento humano de forma profissional e escalável.
 
 ---
 
-## 🚀 Uso
+# 🎥 Demonstração
 
-O DazzleBot oferece uma interface de gestão e atendimento completa.
+https://github.com/user-attachments/assets/c602f801-3c41-457b-83c8-98eb518db143
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/d25d7243-2f49-4aff-bfa1-f6277e842a95" />
+<img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/99b86618-aa98-419a-9825-e9def17fd739" />
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/1c4a8318-a59b-4e95-a0c1-a3d815fd3444" />
+<img width="1919" height="962" alt="image" src="https://github.com/user-attachments/assets/6476b3f1-2d53-455d-9782-98799c16c9b4" />
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/340501be-c84a-4fa3-8496-8b1ac05d908e" />
+<img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/d1c861f0-2ece-43c0-86cf-923b5c92c2dd" />
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/d194c20e-3bc3-473e-9111-e0229f875834" />
 
-### Módulos Principais
 
-* **Login (`/Login`)**: Página inicial para autenticação de usuários (Master, Usuário e Atendente).
-* **Dashboard (`/Home` ou `/DashBoard`)**: Visão gerencial com gráficos de atendimentos ativos por atendente e departamento, leads e volume de mensagens por dia.
-* **Atendimento (`/Atendimento`)**: Interface do atendente para conversas em tempo real com clientes do WhatsApp, com categorização de conversas (Ativo, Esperando, Fila) e uso de **SignalR** para atualizações instantâneas.
-* **Fluxo do Bot (`/FluxoBot`)**: Permite a criação e edição visual do fluxo de conversação do chatbot, incluindo mensagens de resposta simples, menus de múltipla escolha e respostas geradas por IA.
-* **Usuários/Departamentos (`/Usuario` e `/Departamento`)**: Gerenciamento de contas de atendentes e dos departamentos para roteamento de conversas.
+
+
+# 🚀 Inicialização
+
+Abaixo estão todos os passos para executar o projeto corretamente — incluindo a parte do webhook do Meta.
 
 ---
 
-## 🎨 Estilo de Codificação
+## 🔧 Pré-requisitos
 
-O projeto segue um padrão de **arquitetura em camadas** claro, separando as responsabilidades para facilitar a manutenção e o desenvolvimento:
+Instale antes de iniciar:
 
-### Backend (.NET)
+- **.NET SDK 8.0**
+- **SQL Server**
+- **Node.js + npm**
+- **ngrok** (para expor o backend a Meta)
+- Uma conta no **Meta for Developers**
 
-* **Estrutura de Projetos (Solution):** Utiliza projetos separados para `Domain`, `Infrastructure`, `Services` e `API`.
-* **Domain**: Contém os modelos de domínio (ex: `Atendimento.cs`, `Menu.cs` e Enums).
-* **Services**: Contém a lógica de negócio (Business Logic) e a manipulação de DTOs (Data Transfer Objects), garantindo a separação das preocupações (ex: `AtendimentoServices.cs`).
-* **Infrastructure**: Lida com a persistência de dados (Entity Framework Core e Repositórios - ex: `BaseRepository.cs`) e integrações externas (OpenAI, Meta).
+---
 
-### Frontend (React/Vite)
+# 🗄️ 1. Banco de Dados
 
-* **Componentização**: A interface é dividida em componentes reutilizáveis (ex: `conversaCard`, `ModalAddOuAttUsuario`).
-* **Hooks**: Uso de `useState` e `useEffect` para gerenciar estado e ciclo de vida nos componentes de página (ex: `AtendentePage/index.jsx`, `Usuario/index.jsx`).
-* **Estilização**: Cada componente ou página tem seu próprio arquivo `.css` para estilos localizados (ex: `pages/Perfil/style.css`, `components/ComponentesDepartamentos/ModalAddOuAttDep/style.css`).
+1. Crie um novo banco no SQL Server (ex: `chatbot`).
+2. Acesse a pasta `DbAtualizado`.
+3. Execute o script mais recente (ex.: `BancoDeDadosAtualizado20_11_24.sql`) para criar tabelas e dados iniciais.
+
+---
+
+# ⚙️ 2. Configurando o Backend (`Chatbot.API`)
+
+1. Entre em:
+   ```
+   Chatbot.Solution/Chatbot.API
+   ```
+2. Crie o arquivo **appsettings.json** baseado em `appsettings.example.json`.
+3. Configure:
+   - **ConnectionString** → chave `Chinook`
+   - Chaves da **Meta** (WhatsApp)
+   - Chave do **OpenAI**
+4. Rode a API:
+   ```bash
+   dotnet run
+   ```
+   A API ficará disponível, por exemplo, em:
+   - `http://localhost:5058/`
+   - `https://localhost:7261/`
+
+---
+
+# 🌎 3. Configurando o Webhook do Meta (WhatsApp)
+
+1. Com a API **rodando**, inicie o **ngrok**:
+   ```bash
+   ngrok http 5058
+   ```
+2. Pegue a URL gerada (ex.: `https://f0a2ab243a9b.ngrok-free.app`).
+3. Vá até **Meta for Developers** → Webhooks → Configure:
+
+```
+{URL_DO_NGROK}/api/v1/Meta/hook
+```
+
+Exemplo:
+```
+https://f0a2ab243a9b.ngrok-free.app/api/v1/Meta/hook
+```
+
+4. Na configuração do Webhook:
+   - Ative **"messages"**
+   - Use versão **v19.0 ou superior**
+
+Se tudo estiver correto, o webhook será validado automaticamente e o bot ficará ativo com o fluxo padrão criado pelo SQL.
+
+---
+
+# 💻 4. Configurando o Frontend (`chatbot.view`)
+
+1. Acesse:
+   ```
+   Chatbot.Solution/chatbot.view
+   ```
+2. Instale dependências:
+   ```bash
+   npm install
+   ```
+3. Execute:
+   ```bash
+   npm run dev
+   ```
+
+Se o backend estiver funcionando e configurado, tudo estará integrado automaticamente.
+
+---
+
+# 🔐 Usuários padrão
+
+## 👑 Master (Administrador)
+```
+email: master.123@123
+senha: senai.123
+```
+
+## 👨‍💼 Atendente
+```
+email: emailTeste@gmail.com
+senha: atendente@123
+```
+
+---
+
+# 🧭 Funcionalidades
+
+## 👑 Modo Master (Administrador)
+
+O usuário Master possui visão completa do sistema:
+
+### Dashboard
+- Mensagens recebidas por dia  
+- Atendentes online  
+- Leads  
+- Atendimentos ativos
+- configurar comandos para o uso do cliente no chat, como "/finalizar" - usado para finalizar instantaneamente um chat ou o "/reset" para recomeçar o fluxo do chat do zero.
+- Atendimentos pendentes  
+- Atendimentos por departamento  
+- Atendimentos por atendente  
+
+### Gerenciamento
+- 👤 **Perfil** → edição de dados pessoais  
+- 🏢 **Departamentos** → criar/editar departamentos  
+- 👥 **Usuários** → criar atendentes e administradores  
+- 📢 **Mensagens em Massa** → enviar para vários leads  
+- 🤖 **Fluxo do Bot** → editar o fluxo de conversação atual (menus, respostas simples e respostas com IA)
+
+---
+
+# 🎧 Modo Atendente
+
+O atendente tem acesso ao módulo de atendimento em tempo real.
+
+### Atendimentos
+- Conversas divididas por:
+  - "Ativo"
+  - "Esperando"
+  - "Fila"
+- Receber e enviar mensagens para leads via WhatsApp
+- Ver o que o bot enviou e o que o usuário respondeu
+- Atualização instantânea via **SignalR**
+
+### Outras Funções
+- 👤 Alterar seu perfil  
+- 📢 Enviar mensagens em massa  
+
+---
+
+# 🏗️ Arquitetura e Estrutura do Código
+
+O projeto segue uma arquitetura em camadas para facilitar manutenção e escalabilidade.
+
+## Backend (.NET 8)
+- **Domain** → entidades e modelos
+- **Services** → regras de negócio, DTOs, validações
+- **Infrastructure** → EF Core, repositórios, integrações externas
+- **API** → Endpoints, Controllers, autorização, middlewares
+
+## Frontend (React + Vite)
+- Componentes reaproveitáveis
+- Hooks (`useState`, `useEffect`)
+- Pastas organizadas por páginas
+- Estilos isolados por componente (`.css`)
+
+---
+
+# 🎓 Projeto desenvolvido como TCC
+
+Este sistema foi desenvolvido como **Trabalho de Conclusão de Curso**, utilizando:
+
+- **SQL Server**
+- **ASP.NET / C#**
+- **React (JavaScript)**
+- **Entity Framework Core**
+- **SignalR**
+- **Integração oficial com a API do WhatsApp (Meta)**
 
 ---
