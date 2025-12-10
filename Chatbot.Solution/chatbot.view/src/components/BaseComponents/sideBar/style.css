@@ -1,0 +1,25 @@
+.sideBarContainer {
+    background-color: #263a6d;
+    height: 5rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    justify-content: center;
+}
+
+@media (max-width: 374px) {
+    .sideBarContainer {
+        overflow-y: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .sideBarContainer {
+        max-width: 5rem;
+        height: auto;
+        justify-content: start;
+        position: unset;
+    }
+}

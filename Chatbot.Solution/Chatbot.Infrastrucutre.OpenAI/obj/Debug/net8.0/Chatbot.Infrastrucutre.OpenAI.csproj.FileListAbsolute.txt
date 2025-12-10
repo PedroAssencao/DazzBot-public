@@ -1,0 +1,52 @@
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.deps.json
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.pdb
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.csproj.AssemblyReference.cache
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.AssemblyInfoInputs.cache
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.AssemblyInfo.cs
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.csproj.CoreCompileInputs.cache
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.sourcelink.json
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\refint\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.pdb
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\ref\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.deps.json
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.pdb
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.csproj.AssemblyReference.cache
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.AssemblyInfoInputs.cache
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.AssemblyInfo.cs
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.sourcelink.json
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\refint\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.pdb
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\ref\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.deps.json
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.pdb
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.AssemblyInfo.cs
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.sourcelink.json
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\refint\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.pdb
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\ref\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.deps.json
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\bin\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.pdb
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.csproj.AssemblyReference.cache
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.AssemblyInfoInputs.cache
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.AssemblyInfo.cs
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.sourcelink.json
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\refint\Chatbot.Infrastrucutre.OpenAI.dll
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\Chatbot.Infrastrucutre.OpenAI.pdb
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Infrastrucutre.OpenAI\obj\Debug\net8.0\ref\Chatbot.Infrastrucutre.OpenAI.dll

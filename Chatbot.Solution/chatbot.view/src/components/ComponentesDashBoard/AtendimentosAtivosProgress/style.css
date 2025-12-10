@@ -1,0 +1,64 @@
+.ContainerProgress{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.AtendimentoAtivosProgress{
+    width: 53rem; 
+    height: 20rem; 
+    
+}
+
+.AtendimentoAtivosProgressHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+.AtendimentosAtivosProgressTitle{
+    color: grey; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin: 0px
+}
+
+.AtendimentosAtivosProgressIcons{
+    display: flex; 
+    align-items: center
+}
+
+.AtendimentosAtivosProgressNumber{
+    margin: 0px
+}
+
+.AtendimentosAtivosProgressInfo{
+    box-shadow: 1px 1px 2px 2px grey;
+    border-top: 0px; 
+    padding: 1rem
+}
+
+.AtendimentosAtivosProgressColumn{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.AtendimentosAtivosProgressFont{
+    font-weight: 600;
+}
+
+.AtendimentosAtivosProgressBots{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AtenProgress{
+    width: 15rem;
+}
+
+.AtenProgressBar{
+    width: 75%;
+}

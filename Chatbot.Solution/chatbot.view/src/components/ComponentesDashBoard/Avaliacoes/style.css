@@ -1,0 +1,42 @@
+.Mensagem {
+    width: 410px;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+.Header {
+    display: block;
+    padding: 1rem;
+}
+
+.Grafico {
+    width: 26.5rem;
+    position: relative;
+    right: 0.55rem;
+    bottom: -0.55rem;
+}
+
+.MensagemTitle {
+    color: #263a6d;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Total{
+    color: grey;
+    opacity: 0.8;
+}
+
+.Info{
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.MensagemIcon{
+    display: flex;
+}
+
+.Icon{
+    margin-right: 0.3rem;
+}

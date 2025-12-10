@@ -1,0 +1,1011 @@
+[
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendenteController",
+    "Method": "BuscarTodosAtendentes",
+    "RelativePath": "api/v1/Atendente/Atendente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendenteController",
+    "Method": "BuscarAtendendePorId",
+    "RelativePath": "api/v1/Atendente/Atendente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendenteController",
+    "Method": "AtualizarAtendente",
+    "RelativePath": "api/v1/Atendente/Atendente/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.AtendenteDttoForPut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendenteController",
+    "Method": "BuscarTodosAtendentesDeUmLogId",
+    "RelativePath": "api/v1/Atendente/Atendente/BuscarTodosAtendentePorLogId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendenteController",
+    "Method": "AdicionarAtendente",
+    "RelativePath": "api/v1/Atendente/Atendente/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.AtendenteDttoForPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendenteController",
+    "Method": "ApagarAtendente",
+    "RelativePath": "api/v1/Atendente/Atendente/Remove",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendimentoController",
+    "Method": "BuscarTodosAtendimento",
+    "RelativePath": "api/v1/Atendimento/Atendimento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendimentoController",
+    "Method": "BuscarAtendimentoPorId",
+    "RelativePath": "api/v1/Atendimento/Atendimento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendimentoController",
+    "Method": "AtualizarAtendimento",
+    "RelativePath": "api/v1/Atendimento/Atendimento/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.AtendimentoDttoPut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendimentoController",
+    "Method": "BuscarTodosAtendimentosPorLogId",
+    "RelativePath": "api/v1/Atendimento/Atendimento/BuscarTodosPorLog/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendimentoController",
+    "Method": "AdicionarAtendimento",
+    "RelativePath": "api/v1/Atendimento/Atendimento/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.AtendimentoDttoPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.AtendimentoController",
+    "Method": "DeletarAtendimento",
+    "RelativePath": "api/v1/Atendimento/Atendimento/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ChatController",
+    "Method": "BuscarTodos",
+    "RelativePath": "api/v1/Chat/chats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ChatController",
+    "Method": "BuscarPorID",
+    "RelativePath": "api/v1/Chat/chats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ChatController",
+    "Method": "Atualizar",
+    "RelativePath": "api/v1/Chat/chats/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.ChatsDttoPut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ChatController",
+    "Method": "Adicionar",
+    "RelativePath": "api/v1/Chat/chats/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.ChatsDttoPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ChatController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Chat/chats/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ChatController",
+    "Method": "BuscarTodosOSChatsPorLogId",
+    "RelativePath": "api/v1/Chat/chats/Get/BuscarTodosOsChatsPorLogId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "PegarTodosContatosBloqueados",
+    "RelativePath": "api/v1/Contato/Contatos/ContatosBloqueados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "CriarNovoContato",
+    "RelativePath": "api/v1/Contato/Contatos/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.ContatoDttoGet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "ApagarContato",
+    "RelativePath": "api/v1/Contato/Contatos/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "BuscarTodosContato",
+    "RelativePath": "api/v1/Contato/Contatos/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "BuscarContatoPorId",
+    "RelativePath": "api/v1/Contato/Contatos/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "BuscarTodosOsContatosDeUmLogId",
+    "RelativePath": "api/v1/Contato/Contatos/Get/BuscarTodosOsContatosDeUmLogID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "BuscaContatoPorWaId",
+    "RelativePath": "api/v1/Contato/Contatos/Get/waID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "AtualizarContato",
+    "RelativePath": "api/v1/Contato/Contatos/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.ContatoDttoGet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.DashBoardController",
+    "Method": "PegarDadosDashboard",
+    "RelativePath": "api/v1/DashBoard/BuscarDadosDashBoard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.DepartamanetoController",
+    "Method": "BuscarTodos",
+    "RelativePath": "api/v1/Departamaneto/Departamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.DepartamanetoController",
+    "Method": "BuscarDepartamnetoPorId",
+    "RelativePath": "api/v1/Departamaneto/Departamento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.DepartamanetoController",
+    "Method": "BuscarTodosDepartamentosPorLogId",
+    "RelativePath": "api/v1/Departamaneto/Departamento/BuscarTodosDepartamentoPorLogId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.DepartamanetoController",
+    "Method": "AdicionarDepartamento",
+    "RelativePath": "api/v1/Departamaneto/Departamento/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.DepartamentoDttoGet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.DepartamanetoController",
+    "Method": "ApagarDepartamento",
+    "RelativePath": "api/v1/Departamaneto/Departamento/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.DepartamanetoController",
+    "Method": "AtualizarDepartamento",
+    "RelativePath": "api/v1/Departamaneto/Departamento/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.DepartamentoDttoGet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.LoginController",
+    "Method": "BuscarTodosLogin",
+    "RelativePath": "api/v1/Login/login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.LoginController",
+    "Method": "BuscarTodosLoginPorId",
+    "RelativePath": "api/v1/Login/login/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.LoginController",
+    "Method": "AtualizarLogin",
+    "RelativePath": "api/v1/Login/login/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.LoginDttoGet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.LoginController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/v1/Login/login/Cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.LoginDttoGet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.LoginController",
+    "Method": "ApagarLogin",
+    "RelativePath": "api/v1/Login/login/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.LoginController",
+    "Method": "GetUserInfo",
+    "RelativePath": "api/v1/Login/login/GetClaimsInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.LoginController",
+    "Method": "Logar",
+    "RelativePath": "api/v1/Login/login/logar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.LoginDttoPost",
+        "IsRequired": true
+      },
+      {
+        "Name": "Iscadastrate",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.LoginController",
+    "Method": "logout",
+    "RelativePath": "api/v1/Login/login/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MensagemController",
+    "Method": "PegarTodasMensagens",
+    "RelativePath": "api/v1/Mensagem/mensagens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MensagemController",
+    "Method": "AtualizarMensagens",
+    "RelativePath": "api/v1/Mensagem/mensagens/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.MensagensDttoPut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MensagemController",
+    "Method": "PegarMensagensParaChat",
+    "RelativePath": "api/v1/Mensagem/mensagens/chat",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "con",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "log",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MensagemController",
+    "Method": "CriarMensagem",
+    "RelativePath": "api/v1/Mensagem/mensagens/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.MensagensDttoPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MensagemController",
+    "Method": "ApagarMensagens",
+    "RelativePath": "api/v1/Mensagem/mensagens/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MensagemController",
+    "Method": "AtualizarLidoMensagens",
+    "RelativePath": "api/v1/Mensagem/mensagens/MarcarMensagensComoLida",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Models",
+        "Type": "Chatbot.Infrastructure.Dtto.ChatsDttoGet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MenusController",
+    "Method": "BuscarTodosMenus",
+    "RelativePath": "api/v1/Menus/Menus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MenusController",
+    "Method": "BuscarMenusPorId",
+    "RelativePath": "api/v1/Menus/Menus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MenusController",
+    "Method": "AtualizarMenu",
+    "RelativePath": "api/v1/Menus/Menus/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.MenuDttoPut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MenusController",
+    "Method": "AdicionarMenu",
+    "RelativePath": "api/v1/Menus/Menus/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.MenuDttoPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MenusController",
+    "Method": "ApagarMenu",
+    "RelativePath": "api/v1/Menus/Menus/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MenusController",
+    "Method": "BuscarTodosOsMenusPorLogId",
+    "RelativePath": "api/v1/Menus/Menus/GetAllMenusByLogId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MenusController",
+    "Method": "BuscarMenuInicial",
+    "RelativePath": "api/v1/Menus/Menus/MenuInicial/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MetaController",
+    "Method": "testeAtendenteEnviarMensagenChat",
+    "RelativePath": "api/v1/Meta/EnviarMensagenAtendente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "chat",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ate",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MetaController",
+    "Method": "testeAtendenteEnviarMensagenChat",
+    "RelativePath": "api/v1/Meta/EnvioMensagensEmMassa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "conteudo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "contatos",
+        "Type": "System.Collections.Generic.List\u00601[[Chatbot.Infrastructure.Dtto.ContatoDttoGet, Chatbot.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MetaController",
+    "Method": "HandleWebhookAsync",
+    "RelativePath": "api/v1/Meta/hook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestBody",
+        "Type": "System.Text.Json.JsonDocument",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.MetaController",
+    "Method": "HandleWebhook",
+    "RelativePath": "api/v1/Meta/hook",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hub.challenge",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.OptionController",
+    "Method": "BuscarTodasOption",
+    "RelativePath": "api/v1/Option/Option",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.OptionController",
+    "Method": "BuscarOptionPorId",
+    "RelativePath": "api/v1/Option/Option/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.OptionController",
+    "Method": "AdicionarOption",
+    "RelativePath": "api/v1/Option/Option/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.OptionDttoPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.OptionController",
+    "Method": "ApagarOption",
+    "RelativePath": "api/v1/Option/Option/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "optid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.OptionController",
+    "Method": "ApagarOpDeleteOptionCascadetion",
+    "RelativePath": "api/v1/Option/Option/DeleteOptionCascade",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "optid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.OptionController",
+    "Method": "AtualizarOption",
+    "RelativePath": "api/v1/Option/Option/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "Chatbot.Infrastructure.Dtto.OptionDttoPut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chatbot.API.Controllers.v1.ContatoController",
+    "Method": "SetContatoBloqueado",
+    "RelativePath": "Contatos/SetBloqueado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "conId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

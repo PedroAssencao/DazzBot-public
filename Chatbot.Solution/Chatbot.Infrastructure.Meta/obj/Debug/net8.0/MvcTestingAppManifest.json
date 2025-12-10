@@ -1,0 +1,6 @@
+{
+  "Chatbot.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\pedro\\Documents\\GitHub\\DazzBot-public\\Chatbot.Solution\\Chatbot.Domain",
+  "Chatbot.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\pedro\\Documents\\GitHub\\DazzBot-public\\Chatbot.Solution\\Chatbot.Infrastructure",
+  "Chatbot.Infrastrucutre.OpenAI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\pedro\\Documents\\GitHub\\DazzBot-public\\Chatbot.Solution\\Chatbot.Infrastrucutre.OpenAI",
+  "Chatbot.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\pedro\\Documents\\GitHub\\DazzBot-public\\Chatbot.Solution\\Chatbot.Services"
+}

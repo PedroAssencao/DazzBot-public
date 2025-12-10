@@ -1,0 +1,9 @@
+{
+  "Chatbot.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Administrador\\Documents\\GitHub\\ChatBot\\Chatbot.Solution\\Chatbot.API",
+  "Chatbot.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Administrador\\Documents\\GitHub\\ChatBot\\Chatbot.Solution\\Chatbot.Domain",
+  "Chatbot.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Administrador\\Documents\\GitHub\\ChatBot\\Chatbot.Solution\\Chatbot.Infrastructure",
+  "Chatbot.Infrastructure.Meta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Administrador\\Documents\\GitHub\\ChatBot\\Chatbot.Solution\\Chatbot.Infrastructure.Meta",
+  "Chatbot.Infrastrucutre.OpenAI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Administrador\\Documents\\GitHub\\ChatBot\\Chatbot.Solution\\Chatbot.Infrastrucutre.OpenAI",
+  "Chatbot.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Administrador\\Documents\\GitHub\\ChatBot\\Chatbot.Solution\\Chatbot.Services",
+  "Chatbot.Services.Meta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Administrador\\Documents\\GitHub\\ChatBot\\Chatbot.Solution\\Chatbot.Services.Meta"
+}

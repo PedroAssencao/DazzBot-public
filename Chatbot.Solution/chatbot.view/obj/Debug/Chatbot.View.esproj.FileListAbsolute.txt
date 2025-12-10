@@ -1,0 +1,3 @@
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.View\obj\Debug\Chatbot.View.esproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.View\obj\Debug\Chatbot.View.esproj.CoreCompileInputs.cache
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.View\obj\Debug\Chatbot.View.esproj.CoreCompileInputs.cache

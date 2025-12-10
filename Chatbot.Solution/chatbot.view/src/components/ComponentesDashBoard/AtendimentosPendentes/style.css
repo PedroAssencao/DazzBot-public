@@ -1,0 +1,41 @@
+.AtendimentoOn{
+    display: flex; 
+    flex-direction: row; 
+    width: 25rem; 
+    height: 10rem; 
+    padding: 0.5rem; 
+    justify-content: space-around;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+.AtendimentoOnHeader{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0.5rem;
+}
+
+.AtendimentoOnTitle{
+    color: #263a6d;
+    margin: 0px;
+}
+
+.AtendimentoOnNumber{
+    color: #263a6d;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.AtendimentoOnColumn{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding: 0.5rem; 
+    margin-left: 1rem;
+}
+
+.AtendimentoOnIcon{
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+}

@@ -1,0 +1,52 @@
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.deps.json
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.dll
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.pdb
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.csproj.AssemblyReference.cache
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.AssemblyInfoInputs.cache
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.AssemblyInfo.cs
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.sourcelink.json
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.dll
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\refint\Chatbot.Domain.dll
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.pdb
+C:\Users\silva\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\ref\Chatbot.Domain.dll
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.deps.json
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.dll
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.pdb
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.csproj.AssemblyReference.cache
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.AssemblyInfoInputs.cache
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.AssemblyInfo.cs
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.sourcelink.json
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.dll
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\refint\Chatbot.Domain.dll
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.pdb
+C:\Users\Pedro Marcelo\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\ref\Chatbot.Domain.dll
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.deps.json
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.dll
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.pdb
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.AssemblyInfo.cs
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.sourcelink.json
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.dll
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\refint\Chatbot.Domain.dll
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.pdb
+C:\Users\Administrador\Documents\GitHub\ChatBot\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\ref\Chatbot.Domain.dll
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.deps.json
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.dll
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\bin\Debug\net8.0\Chatbot.Domain.pdb
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.csproj.AssemblyReference.cache
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.AssemblyInfoInputs.cache
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.AssemblyInfo.cs
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.sourcelink.json
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.dll
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\refint\Chatbot.Domain.dll
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\Chatbot.Domain.pdb
+C:\Users\pedro\Documents\GitHub\DazzBot-public\Chatbot.Solution\Chatbot.Domain\obj\Debug\net8.0\ref\Chatbot.Domain.dll

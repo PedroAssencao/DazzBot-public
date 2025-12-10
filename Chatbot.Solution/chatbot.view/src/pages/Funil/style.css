@@ -1,0 +1,186 @@
+.Botoes{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.funilSubtitle{
+    color: #263a6d;
+    font-weight: bold;
+}
+
+.Histo{
+    margin-right: 0.5rem;
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.Histo:hover{
+    border-color: #198754;
+    color: #fff;
+    background-color: #157347;
+}
+
+.containerFunil{
+    width: 98%;
+    height: 28rem;
+    margin-left: 1rem;
+    box-shadow: grey 1px 1px 1px 2px;
+}
+
+.headerCliente{
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+}
+
+.bodyCliente{
+    height: 19rem;
+    padding: 2rem;
+}
+
+.footerCliente{
+    height: 4rem;
+    display: flex;
+    justify-content: end;
+    padding: 0.5rem;
+    box-shadow: grey 1px 1px 1px 2px;
+}
+
+.clienteDanger{
+height: 2.7rem;
+margin-right: 0.8rem;
+}
+
+.BlueOutline{
+    --bs-btn-color: #263a6d;
+    --bs-btn-border-color: #263a6d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #263a6d;
+    --bs-btn-hover-border-color: #263a6d;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #263a6d;
+    --bs-btn-active-border-color: #263a6d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #263a6d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #263a6d;
+    --bs-gradient: none;
+    margin: #263a6d;
+}
+
+.FunilNumber{
+    color: #263a6d;
+    font-weight: bold;
+}
+
+.UnderNumber{
+    color: #263a6d;
+    font-weight: bold;
+}
+
+.CardsFunil{
+    width: 40rem;
+display: flex;
+justify-content: start;
+align-items: start;
+gap: 1rem;
+padding: 0px;
+}
+
+.CardFunil{
+    width: 20rem;
+    padding: 0px;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+.CardFunilHeader{
+    background-color: rgb(238, 238, 238);
+    height: 2rem;
+    display: flex;
+    align-items: start;
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+}
+
+.CardFunilBody{
+    height: 5rem;
+    display: flex;
+    align-items: start;
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.CardFunilFooter{
+    display: flex;
+    align-items: start;
+    background-color: rgb(238, 238, 238);
+    height: 5rem;
+}
+
+.FunilDivider{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.LeadsFunil{
+    display: flex;
+}
+
+.FunilDate{
+    display: flex;
+}
+
+.FunilInfo{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 2px grey;
+    height: 7rem;
+}
+
+.FunilListaInfo{
+    margin-left: 1.3rem;
+    margin-right: 0.1rem;
+    gap: 1rem;
+}
+
+.InfoText{
+    width: 40%;
+    color: #263a6d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.InfoIcon{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.InfoTextNumber{
+    
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.InfoIconCircle{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.Funis{
+    padding: 0px;
+}

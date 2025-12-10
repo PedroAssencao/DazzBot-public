@@ -1,0 +1,31 @@
+.activeIcon,
+.sideBarIcon:hover {
+    background-color: #182c5f;
+    cursor: pointer;
+}
+
+.activeOption {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.espacamentoInicial {
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 360px) {
+    .espacamentoInicial {
+        margin-left: 5rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .espacamentoInicial {
+        margin-top: 3rem;
+    }
+}
+
+.b0dea5{
+    color: #b0dea5;
+}

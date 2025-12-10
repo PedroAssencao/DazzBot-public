@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Connections" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chatbot.Domain\Chatbot.Domain.csproj" />
+    <ProjectReference Include="..\Chatbot.Infrastrucutre.OpenAI\Chatbot.Infrastrucutre.OpenAI.csproj" />
+    <ProjectReference Include="..\Chatbot.Services\Chatbot.Services.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+.unactiveChat {
+    cursor: pointer;
+}
+
+.activeChat {
+    background-color: #ebeff9;
+    border: solid 3px #2095eb;
+    cursor: pointer;
+}
+
+.leadImage {
+    width: 60px;
+}

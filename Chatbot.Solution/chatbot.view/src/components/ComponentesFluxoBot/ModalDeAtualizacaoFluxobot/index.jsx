@@ -158,7 +158,7 @@ export default function ModalDeAtualizacaoFluxobot(props) {
         settituloOpcao(props?.Dados?.tituloOpcao || "");
         setdescricaoopcao(props?.Dados?.descricaoOpcao || "");
         setrespostaopcao(props?.Dados?.respostaopcao || "");
-        setfinalizarAtendimento(props?.Dados?.finalizarAtendimento || "");
+        setfinalizarAtendimento(props?.Dados?.finalizarAtendimento == "true" ? true : false || "");
         settituloMenu(props?.Dados?.tituloMenu || "");
         setdescricaomenu(props?.Dados?.descricaoMenu || "");
         setcabecalhomenu(props?.Dados?.cabecalhomenu || "");
@@ -242,7 +242,7 @@ export default function ModalDeAtualizacaoFluxobot(props) {
                                     checked={finalizarAtendimento}
                                     type={"checkbox"}
                                     className={"form-check-input"}
-                                    onChange={(e) => setfinalizarAtendimento(e.target.checked)}
+                                    onChange={(e) => setfinalizarAtendimento(e.target.checked == "true" || e.target.checked == true ? true : false)}
                                     id={"FinalizarCheckedAtt"}
                                 // placeholder={"Opcional"}
                                 />

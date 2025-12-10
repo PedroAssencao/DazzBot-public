@@ -200,6 +200,16 @@ namespace Chatbot.Services.Services
 
                 using (var context = new chatbotContext())
                 {
+
+                    var optionSelecionada = await context.Options.FindAsync(optId);
+
+                    if (optionSelecionada?.OptTipo != ETiposDeOptions.MensagemDeRespostaInterativa)
+                    {
+                        context.Options.Remove(optionSelecionada);
+                        await context.SaveChangesAsync();
+                        return;
+                    }
+
                     var menu = await context.Menus
                         .Include(m => m.Options)
                         .Where(x => !listMenuDeletados.Any(y => y == x))

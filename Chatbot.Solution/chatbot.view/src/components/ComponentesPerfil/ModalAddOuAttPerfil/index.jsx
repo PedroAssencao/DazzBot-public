@@ -41,7 +41,7 @@ export default function ModalAddOuAttUsuario(props) {
         setNomeUsuario(props?.Usuario?.nome || "");
         setEmailUsuario(props?.Usuario?.email || "");
         setSenhaUsuario(props?.Usuario?.senha || "");
-        setEstadoAtendente(props?.Usuario?.estadoAtendente || false)
+        setEstadoAtendente(props?.Usuario?.estadoAtendente == true ? true : false || props?.Usuario?.estadoAtendente == "true" ? true : false || false)
 
 
     }, [props.Usuario]);
@@ -63,7 +63,7 @@ export default function ModalAddOuAttUsuario(props) {
                             {props.tipoUsuario == "Atendente" &&
                                 <div className='d-flex justify-content-start mt-2'>
                                     <div class="form-check d-flex justify-content-center align-items-center gap-2">
-                                        <input className="form-check-input" type="checkbox" value="" id="EstadoAtendentePerfil" onChange={(e) => setEstadoAtendente(e.target.checked)} checked={EstadoAtendente} />
+                                        <input className="form-check-input" type="checkbox" value="" id="EstadoAtendentePerfil" onChange={(e) => setEstadoAtendente(e.target.checked == "true" ? true : false || e.target.checked == true ? true : false)} checked={EstadoAtendente} />
                                         <label style={{ marginTop: "5px" }} className="form-check-label" for="flexCheckChecked">
                                             Estado Atendente
                                         </label>
