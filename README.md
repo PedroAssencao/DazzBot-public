@@ -7,6 +7,7 @@ O **DazzleBot** é uma plataforma completa de atendimento via **WhatsApp (Meta)*
 # 🎥 Demonstração
 
 https://github.com/user-attachments/assets/c602f801-3c41-457b-83c8-98eb518db143
+
 <img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/d25d7243-2f49-4aff-bfa1-f6277e842a95" />
 <img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/99b86618-aa98-419a-9825-e9def17fd739" />
 <img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/1c4a8318-a59b-4e95-a0c1-a3d815fd3444" />
